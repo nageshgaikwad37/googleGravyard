@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: gainsboro;
+    height: 130px;
+}
+
+.heading-primary{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;height: 150px;
+}
+
+.heading{
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    height: 60px;
+    line-height: 50px;
+}
+
+.killed{
+    margin-top: 25px;
+}
+
+.marginTop{
+    margin-top: 15px;
+}
+
+.section-body{
+    background-color: gainsboro;
+}
+
+.card{
+    position: relative;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.card:hover, .card:focus, .card:active{
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+    
+
+}
+
+.type{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.card-heading{
+    margin-top: 35px;
+    height:40px;
+}
+
+.btn{
+    font-size: 18px;
+}
+
+.date{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+p{
+    margin-bottom: 40px;
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap;
+
+}
+
+.yellow{
+    background-color: yellow;
+    color: white;
+
+}
+
+.pink{
+    background-color: maroon;
+    color: white;
+}
+
+.aqua{
+    background-color: aqua;
+    color: white;
+}
